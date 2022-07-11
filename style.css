@@ -1,0 +1,14 @@
+body {
+    font-style:roboto;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap:16px;
+    margin-left: auto;
+}   
