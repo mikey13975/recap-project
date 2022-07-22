@@ -59,8 +59,24 @@ margin:16px 32px;
 .image-container .image{
     
     padding:32px;
+    margin: auto;
 }
 
 .info-image{
     border: blue 2px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.info-container {
+    display:flex;
+    flex-wrap:wrap;
+   /* flex-direction: column;*/
+    align-items:center;
+    justify-content: space-between;
+}
+
+.info-text {
+    width:50px;
 }
