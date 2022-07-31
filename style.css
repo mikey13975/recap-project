@@ -1,6 +1,6 @@
 body {
-    font-style:roboto;
-    font-size: 16px;
+    font-family:"Roboto";
+    font-weight:400;    
 }
 
 .header {
@@ -12,6 +12,7 @@ body {
 logo {
     font-size:24px;
     color: #F9FAF8;
+    padding-left: 16px;
 }
 
 ul {
@@ -29,12 +30,13 @@ div.hero {
     flex-flow: column,wrap;
     font-size:18px;
     color:#E5E7EB;
+    gap:16px;
     
 }
 
 div .hero-text{
     width:50%;
-
+    padding-left:16px;
 }
 h1 {
     font-size:48px;
@@ -44,39 +46,80 @@ h1 {
 
 button{
     background-color:#3882f6;
-
+    margin-bottom:12px;
+    
 }
 
-div .image-container{
-background:#E5E7EB;
+.image-container{
+background:#1f2937;
 color:#1f2937;
 justify-content: center;
 align-items: center;
 display:flex ;
-margin:16px 32px;
+
+
 }
 
-.image-container .image{
-    
-    padding:32px;
-    margin: auto;
+.hero img {
+    max-width:500px;
+    max-height:500px;
+    padding: 12px;
+    /* margin: auto; */
 }
 
+.info-header{
+    font-size:36px;
+    text-align:center;
+    margin:12px;
+    font-weight: bolder;
+}
 .info-image{
-    border: blue 2px;
-    width: 50px;
-    height: 50px;
+    border:4px double blue;
+    max-width:200px;
+    max-height: 200px;
+    
+ }
 
-}
+ .info {
+    text-align: center;
+ }
 
 .info-container {
-    display:flex;
+    display:flex ;
     flex-wrap:wrap;
    /* flex-direction: column;*/
-    align-items:center;
-    justify-content: space-between;
+    /* align-items:center; */
+    justify-content: space-around;
+    /* text-align:center; */
+    gap: 16px;
+    padding:16px;
 }
 
 .info-text {
-    width:50px;
+    width:150px;
+}
+
+.quote-container {
+    background:#E5E7EB;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:100;
+    color:#1f2937;
+    display:flex;
+    justify-content:center;
+}
+
+blockquote {
+    max-width:75%
+}
+
+.quote-author {
+    font-weight:600;
+    float: right; 
+}
+
+footer {
+    background-color: #1f2937;
+    
+    
 }
